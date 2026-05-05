@@ -1,0 +1,9 @@
+import 'dotenv/config';
+import app from './app';
+
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`\n🚀 REST API TypeScript running on http://localhost:${PORT}`);
+  console.log(`📋 Health: http://localhost:${PORT}/health\n`);
+});
