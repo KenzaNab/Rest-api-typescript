@@ -40,4 +40,3 @@ npm test
 | GET | /api/posts/mine | ✅ | My posts |
 
 ## License
-MIT — Kenza Nabaghi
